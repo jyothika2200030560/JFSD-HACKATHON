@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.house-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.content {
+    padding: 20px;
+}
+
+h1 {
+    margin-top: 0;
+    color: #333;
+}
+
+.details {
+    margin-bottom: 20px;
+}
+
+.detail {
+    margin-bottom: 10px;
+}
+
+.contact-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.logo {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background-color: rgba(255,255,255,0.7);
+    padding: 5px 10px;
+    border-radius: 5px;
+}

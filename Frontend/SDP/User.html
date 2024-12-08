@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Search</title>
+    <link rel="stylesheet" href="User.css">
+    <script>
+        function redirectToHighCost() {
+            window.location.href = 'highcost.htm';  // Redirect to highcost.htm
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <h1>Search your dream property</h1>
+        </div>
+
+        <!-- Image Grid with Spacing -->
+        <div class="image-grid">
+            <img src="image2.jpg" alt="House exterior">
+            <img src="image3.jpg" alt="Modern interior">
+            <img src="image4.jpg" alt="Apartment building">
+        </div>
+
+        <!-- Search Form -->
+        <form class="search-form">
+            <!-- Location Field -->
+            <div class="form-group">
+                <label for="location">Enter your location</label>
+                <input type="text" id="location" name="location" placeholder="City or neighborhood" required>
+            </div>
+            
+            <!-- Property Type Field -->
+            <div class="form-group">
+                <label for="property-type">Enter your property type</label>
+                <input type="text" id="property-type" name="property-type" placeholder="House, Apartment, etc." required>
+            </div>
+
+            <!-- Bedrooms Field -->
+            <div class="form-group">
+                <label for="bedrooms">Enter number of bedrooms</label>
+                <input type="number" id="bedrooms" name="bedrooms" placeholder="E.g., 3" min="1" required>
+            </div>
+
+            <!-- Bathrooms Field -->
+            <div class="form-group">
+                <label for="bathrooms">Enter number of bathrooms</label>
+                <input type="number" id="bathrooms" name="bathrooms" placeholder="E.g., 2" min="1" required>
+            </div>
+
+            <!-- Area Field -->
+            <div class="form-group">
+                <label for="area">Enter the area (sq ft)</label>
+                <input type="number" id="area" name="area" placeholder="E.g., 1200" min="1" required>
+            </div>
+
+            <!-- Room Type Field -->
+            <div class="form-group">
+                <label for="room-type">Enter room type</label>
+                <input type="text" id="room-type" name="room-type" placeholder="Living room, studio, etc." required>
+            </div>
+
+           <!-- Cost Buttons -->
+                <div class="cost-buttons">
+                    <a href="Highcost.html" class="btn">High Cost</a>
+                    <a href="Lowcost.html" class="btn">Low Cost</a>
+                </div>  
+
+            <!-- Search Button -->
+            <button type="submit" class="search-button">Search Property</button>
+        </form>
+    </div>
+</body>
+</html>

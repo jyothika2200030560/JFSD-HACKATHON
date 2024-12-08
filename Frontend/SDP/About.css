@@ -1,0 +1,113 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%; /* Ensure the body and html take up full height */
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Set the layout to flex to manage spacing */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar Styles */
+header {
+    background-color: #2c3e50;
+    padding: 10px 0;
+    flex-shrink: 0; /* Ensure the header does not shrink */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar-title {
+    color: #ecf0f1;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-right {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #f39c12;
+}
+
+/* Main Section */
+main {
+    display: flex;
+    flex-grow: 1; /* Allow main section to grow and take up available space */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    padding: 20px;
+    background-color: #fafafa; /* Slightly lighter background */
+}
+
+.about-section {
+    max-width: 800px;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff; /* White background for the content box */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Slight shadow for box effect */
+}
+
+.about-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: black; /* Black text to match the navbar */
+}
+
+.about-section p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: black; /* Consistent text color */
+}
+
+.back-button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Keeping the back button green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f0f0f0;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    flex-shrink: 0; /* Ensure footer does not shrink */
+    position: relative;
+    bottom: 0;
+}

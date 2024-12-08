@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="Login.css">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <header>
+        <nav class="navbar">
+            <div class="navbar-left">
+                <h1 class="navbar-title">Property Enhancement</h1>
+            </div>
+            <div class="navbar-right">
+                <a href="Home.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="login.html" class="nav-link">Login</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Sign-In Container -->
+    <div class="container">
+        <!-- Left Section (Welcome Back) -->
+        <div class="left-section">
+            <h1>Welcome back</h1>
+            <p>To keep connected with us, please login with your personal info</p>
+            <!-- Button to redirect to User.html -->
+            <a href="User.html">
+                <button class="signin-btn">SIGN IN</button>
+            </a>
+        </div>
+
+        <!-- Right Section (Sign In Form) -->
+        <div class="right-section">
+            <h2>SIGN IN</h2>
+            <form action="User.html" method="GET">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+            <a href="User.html">
+                <button type="submit">SIGN IN</button>
+            </a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
